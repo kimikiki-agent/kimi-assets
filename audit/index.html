@@ -40,7 +40,7 @@
 <body>
 
 <h1>Kimi Workspace — Project Audit</h1>
-<div class="meta">最後更新：2026-04-11 | 專案數：17 | Gap 數：7</div>
+<div class="meta">最後更新：2026-04-11 | 專案數：18 | Gap 數：14</div>
 
 
 
@@ -50,6 +50,28 @@
         <div class="card" style="border-left: 4px solid #e74c3c; background: #fde8e8">
             <div class="card-header">
                 <span class="card-icon">🔴</span>
+                <span class="card-title">AgentCore</span>
+            </div>
+            <div class="card-body">
+                <div class="card-stat">gaps: 1 | pending: 2 | broken: 0</div>
+                <div class="card-date">更新: 今天</div>
+                <div class="card-goal">(無 goals.md)</div>
+            </div>
+        </div>
+        <div class="card" style="border-left: 4px solid #e74c3c; background: #fde8e8">
+            <div class="card-header">
+                <span class="card-icon">🔴</span>
+                <span class="card-title">RiveGen</span>
+            </div>
+            <div class="card-body">
+                <div class="card-stat">gaps: 1 | pending: 9 | broken: 0</div>
+                <div class="card-date">更新: 4 天前</div>
+                <div class="card-goal">Python .riv 檔案 binary writer，程式化產出可被官方 Rive runtime 載入的動畫檔案。</div>
+            </div>
+        </div>
+        <div class="card" style="border-left: 4px solid #f39c12; background: #fef3e2">
+            <div class="card-header">
+                <span class="card-icon">🟡</span>
                 <span class="card-title">AgentChat</span>
             </div>
             <div class="card-body">
@@ -58,37 +80,15 @@
                 <div class="card-goal">讓 Katy 透過 Telegram 自然語言與 Kimi 雙向對話，無需走指令格式。</div>
             </div>
         </div>
-        <div class="card" style="border-left: 4px solid #e74c3c; background: #fde8e8">
+        <div class="card" style="border-left: 4px solid #f39c12; background: #fef3e2">
             <div class="card-header">
-                <span class="card-icon">🔴</span>
-                <span class="card-title">AgentToolkit</span>
-            </div>
-            <div class="card-body">
-                <div class="card-stat">gaps: 1 | pending: 6 | broken: 0</div>
-                <div class="card-date">更新: 9 天前</div>
-                <div class="card-goal">提供 agent 獨立運作的必備技能包：自我描述、workspace 初始化、技能同步。</div>
-            </div>
-        </div>
-        <div class="card" style="border-left: 4px solid #e74c3c; background: #fde8e8">
-            <div class="card-header">
-                <span class="card-icon">🔴</span>
-                <span class="card-title">AvatarController</span>
-            </div>
-            <div class="card-body">
-                <div class="card-stat">gaps: 1 | pending: 2 | broken: 0</div>
-                <div class="card-date">更新: </div>
-                <div class="card-goal">Avatar 動畫系統的決策層，將 AgentComm/AgentPulse 事件轉換為 Rive 每幀參數輸出。</div>
-            </div>
-        </div>
-        <div class="card" style="border-left: 4px solid #e74c3c; background: #fde8e8">
-            <div class="card-header">
-                <span class="card-icon">🔴</span>
-                <span class="card-title">BddProject</span>
+                <span class="card-icon">🟡</span>
+                <span class="card-title">AgentPulse</span>
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 1 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 15 天前</div>
-                <div class="card-goal">以 BDD 框架驅動開發的 skill，強制走 DISCOVER → SPECIFY → IMPLEMENT → VERIFY 四階段流程。</div>
+                <div class="card-date">更新: 2 天前</div>
+                <div class="card-goal">kimi_workspace 的自我監控系統，定期偵測 agent 健康狀態、追蹤優化分數、執行排程任務並發送告警。</div>
             </div>
         </div>
         <div class="card" style="border-left: 4px solid #f39c12; background: #fef3e2">
@@ -108,7 +108,7 @@
                 <span class="card-title">AvatarPlan</span>
             </div>
             <div class="card-body">
-                <div class="card-stat">gaps: 1 | pending: 2 | broken: 3</div>
+                <div class="card-stat">gaps: 1 | pending: 2 | broken: 0</div>
                 <div class="card-date">更新: 今天</div>
                 <div class="card-goal">研究並實作 AI Agent 的 Avatar 動畫系統，記錄方案比較、技術決策與整合規劃。</div>
             </div>
@@ -116,12 +116,23 @@
         <div class="card" style="border-left: 4px solid #f39c12; background: #fef3e2">
             <div class="card-header">
                 <span class="card-icon">🟡</span>
-                <span class="card-title">RiveGen</span>
+                <span class="card-title">BddProject</span>
             </div>
             <div class="card-body">
-                <div class="card-stat">gaps: 1 | pending: 9 | broken: 0</div>
-                <div class="card-date">更新: 3 天前</div>
-                <div class="card-goal">Python .riv 檔案 binary writer，程式化產出可被官方 Rive runtime 載入的動畫檔案。</div>
+                <div class="card-stat">gaps: 1 | pending: 0 | broken: 0</div>
+                <div class="card-date">更新: 15 天前</div>
+                <div class="card-goal">以 BDD 框架驅動開發的 skill，強制走 DISCOVER → SPECIFY → IMPLEMENT → VERIFY 四階段流程。</div>
+            </div>
+        </div>
+        <div class="card" style="border-left: 4px solid #f39c12; background: #fef3e2">
+            <div class="card-header">
+                <span class="card-icon">🟡</span>
+                <span class="card-title">ContentMarketing</span>
+            </div>
+            <div class="card-body">
+                <div class="card-stat">gaps: 1 | pending: 2 | broken: 0</div>
+                <div class="card-date">更新: 今天</div>
+                <div class="card-goal">透過社群內容建立「養成型陪伴秘書」品牌存在感，同時收集痛點回饋作為產品設計依據。</div>
             </div>
         </div>
         <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
@@ -130,8 +141,8 @@
                 <span class="card-title">AgentComm</span>
             </div>
             <div class="card-body">
-                <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 10 天前</div>
+                <div class="card-stat">gaps: 1 | pending: 0 | broken: 0</div>
+                <div class="card-date">更新: 11 天前</div>
                 <div class="card-goal">作為 kimi_workspace 的統一對外通訊層，負責 Telegram / Discord 雙向訊息收發。</div>
             </div>
         </div>
@@ -141,7 +152,7 @@
                 <span class="card-title">AgentDispatcher</span>
             </div>
             <div class="card-body">
-                <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
+                <div class="card-stat">gaps: 1 | pending: 0 | broken: 0</div>
                 <div class="card-date">更新: 9 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
@@ -149,12 +160,45 @@
         <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
             <div class="card-header">
                 <span class="card-icon">🟢</span>
-                <span class="card-title">AgentPulse</span>
+                <span class="card-title">AgentToolkit</span>
             </div>
             <div class="card-body">
-                <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 2 天前</div>
-                <div class="card-goal">kimi_workspace 的自我監控系統，定期偵測 agent 健康狀態、追蹤優化分數、執行排程任務並發送告警。</div>
+                <div class="card-stat">gaps: 1 | pending: 6 | broken: 0</div>
+                <div class="card-date">更新: 9 天前</div>
+                <div class="card-goal">提供 agent 獨立運作的必備技能包：自我描述、workspace 初始化、技能同步。</div>
+            </div>
+        </div>
+        <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
+            <div class="card-header">
+                <span class="card-icon">🟢</span>
+                <span class="card-title">ContentDigest</span>
+            </div>
+            <div class="card-body">
+                <div class="card-stat">gaps: 1 | pending: 0 | broken: 0</div>
+                <div class="card-date">更新: 10 天前</div>
+                <div class="card-goal">將多種來源內容（文字、URL、影片）自動轉換為結構化 Markdown 筆記 + Markmap 心智圖。</div>
+            </div>
+        </div>
+        <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
+            <div class="card-header">
+                <span class="card-icon">🟢</span>
+                <span class="card-title">MorningBrief</span>
+            </div>
+            <div class="card-body">
+                <div class="card-stat">gaps: 1 | pending: 1 | broken: 0</div>
+                <div class="card-date">更新: 3 天前</div>
+                <div class="card-goal">晨間自主改進系統，讀取昨日反思建議並透過 Action Type Registry 漸進學習自主執行能力。</div>
+            </div>
+        </div>
+        <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
+            <div class="card-header">
+                <span class="card-icon">🟢</span>
+                <span class="card-title">SessionHandoff</span>
+            </div>
+            <div class="card-body">
+                <div class="card-stat">gaps: 1 | pending: 0 | broken: 0</div>
+                <div class="card-date">更新: 1 天前</div>
+                <div class="card-goal">跨 session 工作進度管理系統，確保 session 間的上下文不丟失、交班順暢。</div>
             </div>
         </div>
         <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
@@ -171,34 +215,12 @@
         <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
             <div class="card-header">
                 <span class="card-icon">🟢</span>
-                <span class="card-title">ContentDigest</span>
-            </div>
-            <div class="card-body">
-                <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 10 天前</div>
-                <div class="card-goal">將多種來源內容（文字、URL、影片）自動轉換為結構化 Markdown 筆記 + Markmap 心智圖。</div>
-            </div>
-        </div>
-        <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
-            <div class="card-header">
-                <span class="card-icon">🟢</span>
-                <span class="card-title">ContentMarketing</span>
+                <span class="card-title">AvatarController</span>
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 2 | broken: 0</div>
-                <div class="card-date">更新: 今天</div>
-                <div class="card-goal">透過社群內容建立「養成型陪伴秘書」品牌存在感，同時收集痛點回饋作為產品設計依據。</div>
-            </div>
-        </div>
-        <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
-            <div class="card-header">
-                <span class="card-icon">🟢</span>
-                <span class="card-title">MorningBrief</span>
-            </div>
-            <div class="card-body">
-                <div class="card-stat">gaps: 0 | pending: 1 | broken: 0</div>
-                <div class="card-date">更新: 2 天前</div>
-                <div class="card-goal">晨間自主改進系統，讀取昨日反思建議並透過 Action Type Registry 漸進學習自主執行能力。</div>
+                <div class="card-date">更新: 5 天前</div>
+                <div class="card-goal">Avatar 動畫系統的決策層，將 AgentComm/AgentPulse 事件轉換為 Rive 每幀參數輸出。</div>
             </div>
         </div>
         <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
@@ -208,7 +230,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 4 天前</div>
+                <div class="card-date">更新: 5 天前</div>
                 <div class="card-goal">Kimi 自主工作系統 — Katy 不在時，自動掃描 Notion 看板並按優先級連續執行任務。</div>
             </div>
         </div>
@@ -218,20 +240,9 @@
                 <span class="card-title">ResearchHub</span>
             </div>
             <div class="card-body">
-                <div class="card-stat">gaps: 0 | pending: 1 | broken: 0</div>
-                <div class="card-date">更新: 13 天前</div>
-                <div class="card-goal">kimi_workspace 的知識中樞，將研究素材系統化整理為可複用的知識庫。</div>
-            </div>
-        </div>
-        <div class="card" style="border-left: 4px solid #27ae60; background: #e8f8e8">
-            <div class="card-header">
-                <span class="card-icon">🟢</span>
-                <span class="card-title">SessionHandoff</span>
-            </div>
-            <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 1 天前</div>
-                <div class="card-goal">跨 session 工作進度管理系統，確保 session 間的上下文不丟失、交班順暢。</div>
+                <div class="card-date">更新: 今天</div>
+                <div class="card-goal">kimi_workspace 的知識中樞，將研究素材系統化整理為可複用的知識庫。</div>
             </div>
         </div>
 </div>
@@ -240,74 +251,101 @@
 <div class="section">
 
         <details class="gap-item">
-            <summary>🔴 <strong>[AgentChat]</strong> Goals 定義明確（Intent classification ≥90%、延遲 < 10 秒、對話記憶），但 checklist 完全空白，無對應追蹤項目。Phase 1 聲稱完成但無可驗證的 intent 覆蓋率和延遲指標。</summary>
+            <summary>🟡 <strong>[AgentChat]</strong> Goals 定義 intent classification >= 90% 與 context assembly 精準度，但 checklist 為空，無執行計劃排期</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>goals.md - 成功標準與當前階段不符</p>
-                <p><strong>建議：</strong>[todo] 驗證 intent classification 準確率 ≥90%
-[todo] 延遲測試 < 10 秒
-[todo] 對話記憶上下文組裝精準度評估
-[todo] Phase 2 intent 覆蓋率與 context assembly 推進</p>
+                <p><strong>來源：</strong>goals.md vs checklist (empty)</p>
+                <p><strong>建議：</strong>[todo] Intent coverage expansion (5 intent types validation) + [todo] Context assembly precision tuning</p>
             </div>
         </details>
         <details class="gap-item">
-            <summary>🔴 <strong>[AgentToolkit]</strong> agent-intro 已完成（CLAUDE.md 記錄『script 全面修復 + 驗證通過』），但 checklist 仍標記 [todo]。State 不一致。</summary>
+            <summary>🔴 <strong>[AgentCore]</strong> Goals 欄位完全空白，無明確的核心目標與成功標準定義</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>checklist state mismatch vs CLAUDE.md 記錄</p>
-                <p><strong>建議：</strong>[done] 設計 agent-intro skill（SKILL.md + script）
-[done] 實作 agent-intro script 模式
-[todo] 設計 agent-init script
-[todo] 建立 AI/shared/skills/ 目錄 + skill-manifest.json
-[todo] 設計 skill-sync push/pull 機制
-[todo] 複製第一個新 agent 驗證</p>
+                <p><strong>來源：</strong>goals.md (缺失)</p>
+                <p><strong>建議：</strong>需補充 Goals 定義、核心功能邊界、WebSocket API 規格</p>
             </div>
         </details>
         <details class="gap-item">
-            <summary>🔴 <strong>[BddProject]</strong> Goals 定義完整（DISCOVER-SPECIFY-IMPLEMENT-VERIFY 四階段），但 checklist 空白，無實作計畫。skill 基礎架構就緒但無具體推進項目。</summary>
+            <summary>🟢 <strong>[AgentComm]</strong> Checklist 為空，但最近完成列出 F010a-F014a（5 項已完成），記錄不一致</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>goals.md 與 plans/bdd-skill-integration.md 無對應執行項目</p>
-                <p><strong>建議：</strong>[todo] 確定 BDD skill 與 SessionHandoff 整合方式
-[todo] 完成 bdd-skill-integration.md
-[todo] 實作 SKILL.md 與試驗專案串接
-[todo] E2E 測試覆蓋率驗證</p>
+                <p><strong>來源：</strong>checklist vs 最近完成 gap</p>
+                <p><strong>建議：</strong>[done] F010a/F011a/F012a/F013a/F014a 項目應標記為 done</p>
             </div>
         </details>
         <details class="gap-item">
-            <summary>🔴 <strong>[AvatarController]</strong> Goals 要求『延遲 < 16ms（60fps）、平滑無跳幀』，但 EmotionMapper.ts 和 PriorityMixer.ts 標記 [todo]，無法驗證是否達成延遲目標。</summary>
+            <summary>🟢 <strong>[AgentDispatcher]</strong> Checklist 為空，但最近完成列出 P1-P5 全部完成 + E2E 通過，記錄不一致</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>goals.md 成功標準 vs checklist 未完成項目</p>
-                <p><strong>建議：</strong>[todo] 實作 EmotionMapper.ts：事件 → 情緒 → 參數，延遲測試
-[todo] 實作 PriorityMixer.ts：多來源參數混合邏輯
-[todo] 端到端延遲測試驗證 < 16ms</p>
+                <p><strong>來源：</strong>checklist vs 最近完成 gap</p>
+                <p><strong>建議：</strong>[done] P1-P5 核心模組 + [done] E2E 測試驗證</p>
             </div>
         </details>
         <details class="gap-item">
-            <summary>🟡 <strong>[AvatarPlan]</strong> Broken items（3 項）未在 checklist 體現：streaming --verbose 導致 AI 載入完整 tools context、token 用量未在前端驗證、main.tsx 需手動改。應該作為 [todo] 清單項目追蹤修復。</summary>
+            <summary>🟡 <strong>[AgentPulse]</strong> 多個計劃文件（freshness_rules, launchd-auto-monitoring, learning-loop-report）但 checklist 為空，待做項優先級未排期</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>Broken 記錄未反映在 checklist</p>
-                <p><strong>建議：</strong>[todo] 修復 streaming --verbose 的 tools context 過載問題
-[todo] 前端驗證 token 用量顯示
-[todo] main.tsx 自動化切換（TestAvatar vs Production）</p>
+                <p><strong>來源：</strong>plans/ (4 個計劃) vs checklist (empty)</p>
+                <p><strong>建議：</strong>[todo] Doc freshness rules implementation + [todo] Learning loop orchestration + [todo] launchd auto-restart</p>
             </div>
         </details>
         <details class="gap-item">
-            <summary>🟡 <strong>[Autoresearch]</strong> Plans 中 skill-production-monitoring.md（生產監控計畫）無對應 checklist 項目。計畫定義了『每次 skill 被真實使用時自動記錄』但無執行進度追蹤。</summary>
+            <summary>🟢 <strong>[AgentToolkit]</strong> CLAUDE.md 記錄 agent-intro 已完成「script 全面修復 + 驗證通過」，但 checklist 中相應項仍標 [todo]</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>plans/skill-production-monitoring.md 無執行項目</p>
-                <p><strong>建議：</strong>[todo] 實作 Hook + SkillQualityHeartbeat
-[todo] 設計 SkillDegradationHandler
-[todo] 與各 skill 專案整合監控埋點
-[todo] 自動觸發降級機制驗證</p>
+                <p><strong>來源：</strong>checklist vs 最近完成</p>
+                <p><strong>建議：</strong>[done] 設計 agent-intro skill + [done] 實作 agent-intro script 模式</p>
             </div>
         </details>
         <details class="gap-item">
-            <summary>🟡 <strong>[RiveGen]</strong> P0-1（Additive Blend State）與 P0-2（Joystick Binary）逆向分析完成，但 avatar/ 模組重構（avatar/config.py、validator.py、timeline_gen.py 等）仍未開始。與 AvatarPlan 對接時可能延遲。</summary>
+            <summary>🟡 <strong>[AvatarPlan]</strong> Tauri 桌面封裝 [todo]，但無明確計劃。依賴 AgentCore WebSocket + AvatarController（EmotionMapper/PriorityMixer）完成，阻塞關係未記錄</summary>
             <div class="gap-detail">
-                <p><strong>來源：</strong>checklist [todo] 數量（10 項待做）且進度未更新</p>
-                <p><strong>建議：</strong>[in_progress] src/ 重構為 core/ + avatar/
-[todo] avatar/config.py：讀取 avatar.yaml
-[todo] avatar/validator.py：驗證 Node 命名 + Input 完整性
-[todo] avatar/timeline_gen.py：根據 yaml 產出 timeline
-[todo] Verify Tool 升級參數滑桿</p>
+                <p><strong>來源：</strong>checklist [todo] + plans/agent-core-split.md (拆分邊界模糊)</p>
+                <p><strong>建議：</strong>需補充 [planning] Tauri 整合計劃 + 依賴同步表</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🟡 <strong>[BddProject]</strong> 計劃 bdd-skill-integration.md 完成但未執行。Checklist 為空，與 SessionHandoff INIT 整合待排期</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>plans/bdd-skill-integration.md</p>
+                <p><strong>建議：</strong>[todo] 轉換為正式 SKILL.md + [todo] SessionHandoff INIT 整合點</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🟢 <strong>[ContentDigest]</strong> Checklist 為空，已完成項目（B 站工具完成、71 支影片整理、SKILL.md 更新）未記錄在 checklist</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>checklist vs 最近完成</p>
+                <p><strong>建議：</strong>[done] 實作 B 站多集支援 + [done] 完成 B 站批次字幕整理</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🟡 <strong>[ContentMarketing]</strong> Remotion 影片產線計劃標為 P2 待排期，實際依賴 RiveGen Phase 1 + AvatarController 完成，無優先級與依賴同步</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>plans/2026-04-11-remotion-影片產線.md</p>
+                <p><strong>建議：</strong>待 RiveGen + AvatarController 完成後排期。建議補充 blocking 關係</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🟢 <strong>[MorningBrief]</strong> Phase 3 [todo]（Telegram 互動降級 + 週報統計）未排期，無計劃文件</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>checklist [todo] vs plans/ (無 Phase 3)</p>
+                <p><strong>建議：</strong>[planning] Phase 3 計劃文件 + [todo] 實作清單</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🔴 <strong>[RiveGen]</strong> Phase 1 未完成（src/ 重構待做），12 個 Phase 2-3 的 todo 項前置受阻。無清楚的優先級與完成預估時間</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>checklist [todo] 12 items + plans/</p>
+                <p><strong>建議：</strong>[in_progress] src/ → avatar/ + core/ 模組化重構（P0 前置）</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🟢 <strong>[SessionHandoff]</strong> memory-optimization-plan.md 與 memory-learning-loop-eval.md 完成研究但未納入 checklist，記憶系統優化實作未排期</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>plans/memory-*.md vs checklist</p>
+                <p><strong>建議：</strong>[planning] 待 memory 驗證方法論定案後排期實作</p>
+            </div>
+        </details>
+        <details class="gap-item">
+            <summary>🟡 <strong>[Autoresearch]</strong> skill-production-monitoring.md 計劃「每次 skill 被真實使用時自動記錄」，但實時掛鉤未實作，僅有模擬測試框架</summary>
+            <div class="gap-detail">
+                <p><strong>來源：</strong>plans/skill-production-monitoring.md</p>
+                <p><strong>建議：</strong>[todo] Implement skill usage telemetry Hook + [todo] Auto-trigger optimization on degradation detection</p>
             </div>
         </details>
 </div>
@@ -323,41 +361,53 @@
 <div id="graph-container"></div>
 <div id="graph-tooltip" class="tooltip" style="display:none"></div>
 <div style="margin-top:15px; font-size:0.85em;"><h3 style="color:#e74c3c; margin:10px 0 5px;">⚠️ 衝突</h3><details class="gap-item" style="border-left:3px solid #e74c3c">
-                <summary><strong>AvatarPlan ↔ RiveGen</strong> — Avatar 參數化介面規格 + Figma → 動態 Pipeline</summary>
-                <div class="gap-detail">AvatarPlan avatar-parameter-spec.md 定義『標準參數介面讓 AI 自主控制角色表情與動作』；RiveGen rivmodifier-plan.md 也在做『Figma 設計 → 程式化加入動畫、表情、行為控制』。兩份計畫目標重疊，定義的參數結構、命名、序列化邏輯未協調一致，可能導致整合時介面不匹配。</div>
+                <summary><strong>AvatarPlan ↔ AgentCore</strong> — Agent logic 與 Frontend UI 職責邊界定義</summary>
+                <div class="gap-detail">agent-core-split.md 計劃將 AvatarPlan monolith 拆分為 AgentCore + Frontend，但拆分邊界細節未定義（哪些邏輯歸 core、哪些歸 UI）。導致：agent-core-split.md 與 agent-workspace-template.md 的架構定位不一致。建議：補充拆分邊界對照表（core 職責 vs frontend 職責）</div>
             </details><details class="gap-item" style="border-left:3px solid #e74c3c">
-                <summary><strong>AvatarController ↔ AvatarPlan</strong> — EmotionMapper 與 State Machine 銜接</summary>
-                <div class="gap-detail">AvatarPlan s14 完成『SM 結構』（body_layer + trigger_layer + Joystick），AvatarController goals 要求『EmotionMapper 事件 → 情緒 → 參數轉換』。兩者都在定義情緒→參數轉換邏輯，但發生位置、責任邊界未明確定義（是在 AvatarController 轉換還是在 AvatarPlan SM 中轉換？）。</div>
+                <summary><strong>AvatarController ↔ AgentPulse</strong> — 情緒訊號生產與消費流程</summary>
+                <div class="gap-detail">avatar-controller-integration.md 指出「三套控制路徑共存且互相衝突」（路徑 A、B、C 未明確區分）。AgentPulse 可能產生情緒事件，但 AvatarController 的輸入來源、優先級、衝突解決邏輯未定義。導致：avatar 行為不可預測或優先級混亂</div>
+            </details><details class="gap-item" style="border-left:3px solid #e74c3c">
+                <summary><strong>RiveGen ↔ AvatarPlan</strong> — .riv 檔案產出流程與來源</summary>
+                <div class="gap-detail">RiveGen Phase 1 目標是 binary writer，但 AvatarPlan s14-s16 已在手工使用 avatar-kimi.riv 並驗證通過。若 RiveGen 要成為生產流程，兩者的遷移計劃未定義。導致：重複工作或流程方向模糊</div>
             </details><h3 style="color:#e67e22; margin:10px 0 5px;">⏳ 阻塞</h3><details class="gap-item" style="border-left:3px solid #e67e22">
-                <summary><strong>AvatarPlan (Tauri 桌面封裝 [todo])</strong> → 等待 <strong>AvatarPlan (React 整合 [in_progress] + 3 個 broken items)</strong></summary>
-                <div class="gap-detail">Tauri 封裝需要 React 整合完全穩定且 broken items（streaming --verbose、token 用量、main.tsx 自動化）修復。目前 React 仍在進行中。</div>
+                <summary><strong>AvatarPlan Phase 3 (Tauri 桌面封裝)</strong> → 等待 <strong>AgentCore WebSocket API + AvatarController EmotionMapper/PriorityMixer</strong></summary>
+                <div class="gap-detail">AvatarPlan checklist [todo]「Tauri 桌面封裝」需 (1) AgentCore WebSocket 服務與 AvatarPlan 前端整合完成，(2) AvatarController 完成 EmotionMapper 與 PriorityMixer。AgentCore Phase 4 完成但未串接前端（checklist [todo]），AvatarController 2/5 完成。預估週期：2-3 週</div>
             </details><details class="gap-item" style="border-left:3px solid #e67e22">
-                <summary><strong>RiveGen (avatar 模組重構 + 擴充 [todo 10 項])</strong> → 等待 <strong>RiveGen (P0 逆向分析 [done 4 項] + 架構設計協調)</strong></summary>
-                <div class="gap-detail">avatar/config.py、validator.py、timeline_gen.py、preset_baker.py 等 10 項待做，需先確定與 AvatarPlan avatar-parameter-spec.md 的介面一致性（目前未協調）。</div>
+                <summary><strong>RiveGen Phase 2-3 (Shape/漸層/Path/Animation 擴充)</strong> → 等待 <strong>RiveGen Phase 1 src/ 重構完成 (avatar/ + core/ 模組化)</strong></summary>
+                <div class="gap-detail">12 個 phase 2-3 todo 項的前置條件是 src/ 重構。目前重構未開始，無完成預估。預估週期：2-3 週</div>
             </details><details class="gap-item" style="border-left:3px solid #e67e22">
-                <summary><strong>MorningBrief (Phase 3：Telegram 互動降級通知 [todo])</strong> → 等待 <strong>各專案 checklist 完整性</strong></summary>
-                <div class="gap-detail">Phase 3 需要『主動掃描機制覆蓋所有專案狀態』。但 AgentChat、AvatarController、BddProject 等多個專案的 checklist 不完整或狀態不清，無法準確掃描。</div>
+                <summary><strong>ContentMarketing Remotion 影片產線 (P2 待排期)</strong> → 等待 <strong>RiveGen Phase 1 完成 + AvatarController EmotionMapper/PriorityMixer 完成</strong></summary>
+                <div class="gap-detail">Remotion 需要 (1) .riv binary writer 輸出動畫檔案，(2) 參數控制引擎驅動表情。RiveGen Phase 1 未完成，AvatarController 缺 2 個模組。預估週期：3-4 週</div>
             </details><details class="gap-item" style="border-left:3px solid #e67e22">
-                <summary><strong>SessionHandoff (auto-init-before-build 計畫整合 [計畫中])</strong> → 等待 <strong>BddProject (skill 實作與 checklist 缺失)</strong></summary>
-                <div class="gap-detail">SessionHandoff 計畫在 INIT 流程中加入『要開 BDD 模式嗎？』選項，但 BddProject 目前無 checklist 與可執行的初始化步驟，無法串接。</div>
+                <summary><strong>MorningBrief Phase 3 (Telegram 互動 + 週報統計)</strong> → 等待 <strong>Phase 2 穩定運作驗證 + 無明確計劃檔</strong></summary>
+                <div class="gap-detail">Phase 2 已完成但無 Phase 3 計劃文件。預估週期：< 1 週（待排期）</div>
             </details><details class="gap-item" style="border-left:3px solid #e67e22">
-                <summary><strong>Autoresearch (skill 優化迴圈持續迭代)</strong> → 等待 <strong>Autoresearch (skill-production-monitoring.md 實作缺失)</strong></summary>
-                <div class="gap-detail">當前 eval 用 LLM judge 模擬測試，分數波動大。計畫中的『生產監控』需要實作以改善評分準確性，但無 checklist 追蹤進度。</div>
+                <summary><strong>BddProject 實際導入使用</strong> → 等待 <strong>SessionHandoff INIT 整合點開放</strong></summary>
+                <div class="gap-detail">bdd-skill-integration.md 計劃在 SessionHandoff INIT 流程加入「要開 BDD 模式嗎？」選項。待 SessionHandoff 開放對應的 hook point。預估週期：< 1 週</div>
+            </details><details class="gap-item" style="border-left:3px solid #e67e22">
+                <summary><strong>Autoresearch 實時生產監控 (skill-production-monitoring.md)</strong> → 等待 <strong>Claude Code Hook 掛鉤機制 + SkillQualityHeartbeat 與 skill runtime 整合</strong></summary>
+                <div class="gap-detail">計劃監控 skill 在真實使用中的品質衰退。需 (1) Claude Code skill 執行 hook，(2) 記錄執行結果到 Autoresearch state。目前無掛鉤實作。預估週期：2-3 週</div>
             </details><h3 style="color:#3498db; margin:10px 0 5px;">🔗 依賴</h3><details class="gap-item" style="border-left:3px solid #3498db">
-                <summary><strong>AvatarPlan (React 整合 [in_progress])</strong> → <strong>RiveGen (Phase 2：多 Shape、漸層、Path [todo])</strong></summary>
-                <div class="gap-detail">AvatarPlan React 整合需要 RiveGen 支援複雜動畫參數序列化。RiveGen Phase 2 未啟動，可能延遲 AvatarPlan 完成。avatar-parameter-spec.md 與 rivmodifier-plan.md 有介面定義重疊。</div>
+                <summary><strong>AvatarPlan</strong> → <strong>AgentCore</strong></summary>
+                <div class="gap-detail">AvatarPlan Phase 3（Tauri 前端）awaits AgentCore WebSocket 服務上線。AgentCore Phase 1-4 已完成但 checklist [todo] 未標「AvatarPlan 前端指向 AgentCore WebSocket」</div>
             </details><details class="gap-item" style="border-left:3px solid #3498db">
-                <summary><strong>AvatarPlan (Tauri 桌面封裝 [todo])</strong> → <strong>AvatarController (EmotionMapper、PriorityMixer [todo])</strong></summary>
-                <div class="gap-detail">Tauri 封裝需要 AvatarController 的決策層穩定。EmotionMapper 與 PriorityMixer 未完成，無法驗證 avatar 最終行為。</div>
+                <summary><strong>AvatarPlan</strong> → <strong>RiveGen</strong></summary>
+                <div class="gap-detail">AvatarPlan 需 RiveGen 產出符合 avatar-parameter-spec.md 規格的 .riv 檔案。目前 AvatarPlan 手工建立 avatar-kimi.riv，RiveGen Phase 1 未完成，流程銜接未定義</div>
             </details><details class="gap-item" style="border-left:3px solid #3498db">
-                <summary><strong>Autoresearch (skill 優化目標)</strong> → <strong>session-handoff、research-inbox、content-digest（Skills 更新）</strong></summary>
-                <div class="gap-detail">Autoresearch targets/skills/ 目錄存放的是各 skill 的工作副本，優化分數上升時須同步回源 skill 文件。但各 skill 的 goals 與 checklist 未完整定義，無法追蹤優化成果的真實採納。</div>
+                <summary><strong>AvatarPlan</strong> → <strong>AvatarController</strong></summary>
+                <div class="gap-detail">avatar-controller-integration.md 定義整合規格與情緒→參數轉換責任邊界，但 AvatarController EmotionMapper.ts 與 PriorityMixer.ts 仍為 [todo]</div>
             </details><details class="gap-item" style="border-left:3px solid #3498db">
-                <summary><strong>AgentChat (Phase 1 完成，待 Phase 2)</strong> → <strong>AgentComm (通訊層依賴)</strong></summary>
-                <div class="gap-detail">AgentChat 需要確認 AgentComm 是否支援其 intent classification 和非同步回覆需求。agentchat-implementation-plan.md 被截斷，無法確認整合規格。</div>
+                <summary><strong>BddProject</strong> → <strong>SessionHandoff</strong></summary>
+                <div class="gap-detail">bdd-skill-integration.md 計劃與 SessionHandoff INIT 流程整合（新增「要開 BDD 模式嗎？」選項），待 SessionHandoff 開放整合點</div>
             </details><details class="gap-item" style="border-left:3px solid #3498db">
-                <summary><strong>SessionHandoff (INIT auto-repair)</strong> → <strong>BddProject (skill 整合缺失)</strong></summary>
-                <div class="gap-detail">SessionHandoff auto-init-before-build.md 計畫加入『要開 BDD 模式嗎？』選項，但 BddProject 無 checklist 與執行計畫。無法串接。</div>
+                <summary><strong>Autoresearch</strong> → <strong>ContentDigest</strong></summary>
+                <div class="gap-detail">Autoresearch eval 框架對 content-digest skill 執行測試，eval 分數波動大（同份文件跑分差 30 分），根本原因是模擬測試無法取代真實使用</div>
+            </details><details class="gap-item" style="border-left:3px solid #3498db">
+                <summary><strong>ContentMarketing</strong> → <strong>RiveGen</strong></summary>
+                <div class="gap-detail">Remotion 影片產線需 RiveGen 提供程式化 .riv 產出與參數控制。RiveGen Phase 1-3 未完成，流程整合無具體規格</div>
+            </details><details class="gap-item" style="border-left:3px solid #3498db">
+                <summary><strong>ContentMarketing</strong> → <strong>AvatarController</strong></summary>
+                <div class="gap-detail">Remotion 影片產線需 AvatarController 完成參數輸出引擎（EmotionMapper + PriorityMixer），目前皆為 [todo]，無完成預估</div>
             </details></div>
 </div>
 
@@ -374,7 +424,7 @@
 <script>
 // D3 Force Graph
 (function() {
-  const graphData = {"nodes": [{"id": "AvatarPlan", "color": "#f39c12"}, {"id": "RiveGen", "color": "#f39c12"}, {"id": "AvatarController", "color": "#e74c3c"}, {"id": "Autoresearch", "color": "#f39c12"}, {"id": "session-handoff、research-inbox、content-digest（Skills 更新）", "color": "#95a5a6"}, {"id": "AgentChat", "color": "#e74c3c"}, {"id": "AgentComm", "color": "#95a5a6"}, {"id": "SessionHandoff", "color": "#95a5a6"}, {"id": "BddProject", "color": "#e74c3c"}, {"id": "MorningBrief", "color": "#95a5a6"}, {"id": "各專案 checklist 完整性", "color": "#95a5a6"}], "links": [{"source": "AvatarPlan", "target": "RiveGen", "type": "dependency", "label": "AvatarPlan React 整合需要 RiveGen 支援複雜動畫參數序列化。RiveGen "}, {"source": "AvatarPlan", "target": "AvatarController", "type": "dependency", "label": "Tauri 封裝需要 AvatarController 的決策層穩定。EmotionMapper 與"}, {"source": "Autoresearch", "target": "session-handoff、research-inbox、content-digest（Skills 更新）", "type": "dependency", "label": "Autoresearch targets/skills/ 目錄存放的是各 skill 的工作副本，優"}, {"source": "AgentChat", "target": "AgentComm", "type": "dependency", "label": "AgentChat 需要確認 AgentComm 是否支援其 intent classificati"}, {"source": "SessionHandoff", "target": "BddProject", "type": "dependency", "label": "SessionHandoff auto-init-before-build.md 計畫加入『要開 B"}, {"source": "MorningBrief", "target": "各專案 checklist 完整性", "type": "blocking", "label": "Phase 3 需要『主動掃描機制覆蓋所有專案狀態』。但 AgentChat、AvatarContr"}, {"source": "SessionHandoff", "target": "BddProject", "type": "blocking", "label": "SessionHandoff 計畫在 INIT 流程中加入『要開 BDD 模式嗎？』選項，但 Bdd"}, {"source": "AvatarPlan", "target": "RiveGen", "type": "conflict", "label": "AvatarPlan avatar-parameter-spec.md 定義『標準參數介面讓 AI "}, {"source": "AvatarController", "target": "AvatarPlan", "type": "conflict", "label": "AvatarPlan s14 完成『SM 結構』（body_layer + trigger_laye"}]};
+  const graphData = {"nodes": [{"id": "AvatarPlan", "color": "#f39c12"}, {"id": "AgentCore", "color": "#e74c3c"}, {"id": "RiveGen", "color": "#e74c3c"}, {"id": "AvatarController", "color": "#95a5a6"}, {"id": "BddProject", "color": "#f39c12"}, {"id": "SessionHandoff", "color": "#27ae60"}, {"id": "Autoresearch", "color": "#f39c12"}, {"id": "ContentDigest", "color": "#27ae60"}, {"id": "ContentMarketing", "color": "#f39c12"}, {"id": "MorningBrief", "color": "#27ae60"}, {"id": "Phase 2 穩定運作驗證 + 無明確計劃檔", "color": "#95a5a6"}, {"id": "Claude Code Hook 掛鉤機制 + SkillQualityHeartbeat 與 skill runtime 整合", "color": "#95a5a6"}, {"id": "AgentPulse", "color": "#f39c12"}], "links": [{"source": "AvatarPlan", "target": "AgentCore", "type": "dependency", "label": "AvatarPlan Phase 3（Tauri 前端）awaits AgentCore WebSo"}, {"source": "AvatarPlan", "target": "RiveGen", "type": "dependency", "label": "AvatarPlan 需 RiveGen 產出符合 avatar-parameter-spec.md"}, {"source": "AvatarPlan", "target": "AvatarController", "type": "dependency", "label": "avatar-controller-integration.md 定義整合規格與情緒→參數轉換責任邊"}, {"source": "BddProject", "target": "SessionHandoff", "type": "dependency", "label": "bdd-skill-integration.md 計劃與 SessionHandoff INIT 流"}, {"source": "Autoresearch", "target": "ContentDigest", "type": "dependency", "label": "Autoresearch eval 框架對 content-digest skill 執行測試，ev"}, {"source": "ContentMarketing", "target": "RiveGen", "type": "dependency", "label": "Remotion 影片產線需 RiveGen 提供程式化 .riv 產出與參數控制。RiveGen "}, {"source": "ContentMarketing", "target": "AvatarController", "type": "dependency", "label": "Remotion 影片產線需 AvatarController 完成參數輸出引擎（EmotionMa"}, {"source": "AvatarPlan", "target": "AgentCore", "type": "blocking", "label": "AvatarPlan checklist [todo]「Tauri 桌面封裝」需 (1) Agent"}, {"source": "AvatarPlan", "target": "AvatarController", "type": "blocking", "label": "AvatarPlan checklist [todo]「Tauri 桌面封裝」需 (1) Agent"}, {"source": "ContentMarketing", "target": "RiveGen", "type": "blocking", "label": "Remotion 需要 (1) .riv binary writer 輸出動畫檔案，(2) 參數控制"}, {"source": "ContentMarketing", "target": "AvatarController", "type": "blocking", "label": "Remotion 需要 (1) .riv binary writer 輸出動畫檔案，(2) 參數控制"}, {"source": "MorningBrief", "target": "Phase 2 穩定運作驗證 + 無明確計劃檔", "type": "blocking", "label": "Phase 2 已完成但無 Phase 3 計劃文件。預估週期：< 1 週（待排期）"}, {"source": "BddProject", "target": "SessionHandoff", "type": "blocking", "label": "bdd-skill-integration.md 計劃在 SessionHandoff INIT 流"}, {"source": "Autoresearch", "target": "Claude Code Hook 掛鉤機制 + SkillQualityHeartbeat 與 skill runtime 整合", "type": "blocking", "label": "計劃監控 skill 在真實使用中的品質衰退。需 (1) Claude Code skill 執行 "}, {"source": "AvatarPlan", "target": "AgentCore", "type": "conflict", "label": "agent-core-split.md 計劃將 AvatarPlan monolith 拆分為 Ag"}, {"source": "AvatarController", "target": "AgentPulse", "type": "conflict", "label": "avatar-controller-integration.md 指出「三套控制路徑共存且互相衝突」"}, {"source": "RiveGen", "target": "AvatarPlan", "type": "conflict", "label": "RiveGen Phase 1 目標是 binary writer，但 AvatarPlan s14"}]};
   if (graphData.nodes.length === 0) {
     document.getElementById('graph-container').innerHTML = '<p style="color:#999;text-align:center;padding:40px">✅ 無跨專案關係</p>';
   } else {
@@ -447,11 +497,11 @@ const ctx = document.getElementById('accuracyChart').getContext('2d');
 new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["2026-04-11", "2026-04-11"],
+    labels: ["2026-04-11", "2026-04-11", "2026-04-11", "2026-04-11"],
     datasets: [
       {
         label: '命中率 %',
-        data: [11.1, 11.1],
+        data: [11.1, 11.1, 0.0, 0.0],
         borderColor: '#27ae60',
         backgroundColor: 'rgba(39,174,96,0.1)',
         fill: false,
@@ -459,7 +509,7 @@ new Chart(ctx, {
       },
       {
         label: '漏報率 %',
-        data: [0.0, 0.0],
+        data: [0.0, 0.0, 12.5, 12.5],
         borderColor: '#e74c3c',
         backgroundColor: 'rgba(231,76,60,0.1)',
         fill: false,
@@ -467,7 +517,7 @@ new Chart(ctx, {
       },
       {
         label: '整體有效率 %',
-        data: [11.1, 11.1],
+        data: [11.1, 11.1, 0.0, 0.0],
         borderColor: '#3498db',
         backgroundColor: 'rgba(52,152,219,0.1)',
         fill: true,
