@@ -142,7 +142,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 11 天前</div>
+                <div class="card-date">更新: 12 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -492,43 +492,28 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-04-12</p>
+        <p><strong>上次審查：</strong>2026-04-13</p>
         <pre>{
   "goals_review": [
     {
-      "project": "AgentChat",
-      "status": "ok",
-      "suggestion": "Goals 準確描述 Phase 1 完成。F007a-d 已通過，F008 朋友測試待做，與 goals 方向一致。"
-    },
-    {
-      "project": "AgentComm",
-      "status": "ok",
-      "suggestion": "穩定運作中，goals 與現狀完全吻合。"
-    },
-    {
       "project": "AgentCore",
-      "status": "ok",
-      "suggestion": "Goals G1-G4 定義清楚，Phase 1-4 + E2E 已完成，剩 P6a handoff 品質驗證。goals 準確。"
-    },
-    {
-      "project": "AgentDispatcher",
-      "status": "ok",
-      "suggestion": "launchd 常駐穩定，goals 與現狀一致。"
-    },
-    {
-      "project": "AgentPulse",
-      "status": "ok",
-      "suggestion": "Goals 描述準確，架構 C 條件式觸發為下一步方向，已記錄在 goals 中。"
-    },
-    {
-      "project": "AgentToolkit",
       "status": "needs_update",
-      "suggestion": "claude-status.json 顯示 session_count=0、所有 6 項 checklist 仍為 todo，但 CLAUDE.md 索引稱 agent-intro 已完成。若工作是在其他地方完成的，checklist 需同步更新；若未完成，索引需修正。"
+      "suggestion": "「當前階段」應更新為：Phase 1-4 全完成（CLI 對話 + Handoff + Dispatch + E2E），self-learning.md 計畫已建立，下一步為 user_model 短路徑實作。checklist 缺少 self-learning Phase 1 的具體執行項（建立 user_model.md + agent_loader 注入），應補上。"
     },
     {
-      "project": "ApprovalBridge",
+      "project": "AvatarPlan",
+      "status": "needs_update",
+      "suggestion": "「當前階段」描述偏舊，應反映 Backend 已遷移至 AgentCore、Chat UI 重構完成。成功標準中「角色與技能可抽換」目前僅有 agent-workspace-template.md 規劃文件，尚無 checklist 項目，需補排。a5 Tauri 桌面封裝仍為 todo，阻塞關係（依賴 AgentCore WebSocket + AvatarController）應在 checklist 中標註。"
+    },
+    {
+      "project": "AgentChat",
+      "status": "needs_update",
+      "suggestion": "「當前階段」寫 Phase 1 完成，但實際已完成 F007a-d 全驗證、--resume 長對話、38/38 自動化測試。應更新為 Phase 2 完成。checklist 為空但有大量已完成項目未記錄，需補齊。"
+    },
+    {
+      "project": "RiveGen",
       "status": "ok",
-      "suggestion": "雙</pre>
+      "suggestion": "Goals 與實際工作方向一致。Phase 1B 全完成，Phase 2/3 待 Katy 完成 1A 系列（畫角色 + 匯出正式 .riv）後才能推進，屬正常阻塞。checklist 可補 Phase </pre>
 </div>
 
 <script>
