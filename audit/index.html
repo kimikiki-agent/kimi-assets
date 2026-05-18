@@ -109,7 +109,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 46 天前</div>
+                <div class="card-date">更新: 47 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -427,31 +427,28 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-05-11</p>
+        <p><strong>上次審查：</strong>2026-05-18</p>
         <pre>{
   "goals_review": [
     {
       "project": "AgentCore",
-      "status": "ok",
-      "suggestion": "核心目的（自主學習 agent 引擎 + 多前端接入）與實際工作方向一致。G1-G4 已有初步實作，G5 自主學習有 plans/self-learning.md 規劃但尚未排入 checklist，屬於正常的 backlog 狀態。當前階段描述缺失，建議補上。"
-    },
-    {
-      "project": "AgentPulse",
       "status": "needs_update",
-      "suggestion": "當前階段提到「架構 C（條件式觸發 Autoresearch）為下一階段升級方向」，但近期 session 工作重心已轉向 multi-workspace 支援、daily_reflection prompt 修復、兒童動畫製作排程等運維任務，架構 C 並未推進。建議更新當前階段為「穩定運行 + 多 workspace 排程支援」，架構 C 可移入 plans/ 備註。"
-    },
-    {
-      "project": "Autoresearch",
-      "status": "ok",
-      "suggestion": "Project Auditor 已全功能上線，goals.md 與實際產出完全一致。skill-production-monitoring 計畫屬於擴展方向，未排入 checklist 不構成偏離。"
+      "suggestion": "當前階段缺失。應更新為：Phase 1-4 完成（CLI --resume + Chat Handoff + Dispatch + AvatarPlan 串接），下一步為 self-learning Phase 1（user_model + agent_loader）。G4 persona 抽換尚未排入 checklist。"
     },
     {
       "project": "AvatarPlan",
       "status": "needs_update",
-      "suggestion": "當前階段描述停在「Chat UI P1~P3 全重構完成 + FIX-01~06」，但 a5 Tauri 桌面版已於 2026-04-19 完成。建議更新為「a1~a5 全完成（Rive + React + Tauri 桌面版），待推進 production build + AgentCore 串接整合驗收」。"
+      "suggestion": "當前階段過時：仍寫「剩 MVP 項目：session 管理、system prompt 優化」，但 checklist a1-a5 全 done。應更新為：a1-a5 全完成（Rive + React + Tauri 桌面版），下一步為 production build (.dmg) + Phase 2 (streaming UI)。另外 broken 欄位「等 a5 完成後一起修」但 a5 已完成，應清理或排入 checklist。"
     },
     {
-      "project": "Conte</pre>
+      "project": "AgentPulse",
+      "status": "needs_update",
+      "suggestion": "當前階段嚴重過時：仍寫「架構 A 穩定運行中，架構 C 為下一階段」，但 S14-15 已大幅擴展為兒童動畫製作 + 雙 workspace 輸出 + 跨 workspace context 覆蓋。應更新為反映 job scheduler 已涵蓋 daily_reflection、動畫產線、多 workspace 支援等實際範圍。核心目的「排程任務」仍涵蓋，無偏離。"
+    },
+    {
+      "project": "AgentChat",
+      "status": "needs_update",
+      "suggestion": "當前階段寫「Phase 1 完成」但 Session </pre>
 </div>
 
 <script>
