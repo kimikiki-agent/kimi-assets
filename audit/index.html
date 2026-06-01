@@ -109,7 +109,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 60 天前</div>
+                <div class="card-date">更新: 61 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -405,26 +405,42 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-05-25</p>
+        <p><strong>上次審查：</strong>2026-06-01</p>
         <pre>{
   "goals_review": [
     {
-      "project": "AgentCore",
-      "status": "needs_update",
-      "suggestion": "goals.md 缺少「當前階段」區段（其他專案皆有）。Phase 1-4 + E2E 已完成超過 5 週，self-learning.md 計畫已建立但僅 1 個 checklist 項目（P6a Handoff 調優）。建議：(1) 補上「當前階段」描述現況；(2) 將 self-learning Phase 1-3 拆成 checklist 項目追蹤。next_session_start 指向 self-learning Phase 1 但已停滯 5 週。"
+      "project": "AgentChat",
+      "status": "ok",
+      "suggestion": "Phase 1 完成，goals 與實際一致。"
     },
     {
-      "project": "AvatarPlan",
+      "project": "AgentComm",
+      "status": "ok",
+      "suggestion": "穩定運行，無偏離。"
+    },
+    {
+      "project": "AgentCore",
       "status": "needs_update",
-      "suggestion": "「當前階段」仍寫『剩 MVP 項目：session 管理、system prompt 優化、錯誤處理 UX』，但 a4 MVP 已全完成（Session管理 + PromptAPI + 錯誤處理 UX），a5 Tauri 也完成。broken 欄的 /tmp 路徑問題原本標註「等 a5 完成後一起修」，a5 已完成但 broken 未清理。「當前階段」應更新為 post-MVP 狀態（production build、Phase 2 streaming UI 等）。"
+      "suggestion": "「當前階段」為空白（0 session），但 goals 已定義 G1-G5。建議更新當前階段描述為「Phase 1-4 + E2E 完成，前端串接 AvatarPlan 已通」（依 CLAUDE.md 索引表資訊）。G4 persona 抽換與 G5 自主學習尚無 checklist 對應項目，需排入。"
+    },
+    {
+      "project": "AgentDispatcher",
+      "status": "ok",
+      "suggestion": "穩定運行，無偏離。"
     },
     {
       "project": "AgentPulse",
-      "status": "needs_update",
-      "suggestion": "「當前階段」僅描述『架構 A 穩定 + daily_reflection 修復 + 架構 C 為下一階段』，但實際已擴展為通用排程引擎（兒童動畫製作、跨 workspace 支援、JobTracker 09:00/18:00 等）。核心目的中的「執行排程任務」涵蓋這些，不算偏離，但「當前階段」嚴重過時，應反映目前 15+ session 後的實際能力範圍。checklist 為空。"
+      "status": "ok",
+      "suggestion": "架構 A 穩定。「架構 C 條件式觸發 Autoresearch」提及但未排入 checklist，屬願景非偏離。"
     },
     {
-      "project":</pre>
+      "project": "AgentToolkit",
+      "status": "needs_update",
+      "suggestion": "當前階段寫「agent-init 與 skill-sync 待後續開發」，但 T003a-T005a 已於 2026-04-12 完成（done[] 有記錄）。需更新當前階段描述 + 同步 checklist 狀態。"
+    },
+    {
+      "project": "ApprovalBridge",
+      "status": "ok"</pre>
 </div>
 
 <script>
