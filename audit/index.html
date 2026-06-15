@@ -131,7 +131,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 74 天前</div>
+                <div class="card-date">更新: 75 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -432,28 +432,43 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-06-08</p>
+        <p><strong>上次審查：</strong>2026-06-15</p>
         <pre>{
   "goals_review": [
     {
-      "project": "AgentCore",
-      "status": "needs_update",
-      "suggestion": "當前階段描述缺失。G1-G3 已完成（Phase 1-4 + E2E），但 G4（persona 抽換）和 G5（自主學習）完全沒有 checklist 項目。next_session_start 提到 self-learning Phase 1，應在 checklist 新增 G4/G5 的實作項目，並更新當前階段為「G1-G3 完成，G4 persona 抽換 + G5 self-learning 待排期」。"
-    },
-    {
-      "project": "AvatarPlan",
-      "status": "needs_update",
-      "suggestion": "a1-a5 全部完成，但成功標準中「角色與技能可抽換：persona + skill pack 可獨立配置，非 Kimi 硬編」尚未有任何 checklist 項目。當前階段描述仍在談 Chat UI 重構，應更新為「MVP 完成（Tauri 桌面 + Chat UI + Rive 角色 + AgentCore 串接），下一階段：persona 抽換機制 + production build」。plans/agent-workspace-template.md 已存在，應轉化為 checklist 待做項。"
-    },
-    {
-      "project": "AvatarController",
-      "status": "needs_update",
-      "suggestion": "EmotionMapper 已由 NTR 完成（done 記錄有），但 checklist 可能仍標 todo（狀態不同步）。PriorityMixer 仍無排期。當前階段描述尚可，但應反映 EmotionMapper 已完成的事實。"
-    },
-    {
       "project": "AgentChat",
       "status": "ok",
-      "suggestion": "Phase 1 完成，當前階段描</pre>
+      "suggestion": "Phase 1 完成且穩定，goals 與實際一致。"
+    },
+    {
+      "project": "AgentComm",
+      "status": "ok",
+      "suggestion": "launchd 常駐穩定運作，無偏離。"
+    },
+    {
+      "project": "AgentCore",
+      "status": "needs_update",
+      "suggestion": "「當前階段」應更新：Phase 1-4 + AvatarPlan 串接已完成，self-learning（user_model 短路徑 + MorningBrief 長路徑）尚未排入 checklist。建議補上 G5 自主學習的執行計畫。"
+    },
+    {
+      "project": "AgentDispatcher",
+      "status": "ok",
+      "suggestion": "launchd 常駐穩定，無偏離。"
+    },
+    {
+      "project": "AgentPulse",
+      "status": "ok",
+      "suggestion": "架構 A 穩定運行，daily_reflection 已修復，無偏離。"
+    },
+    {
+      "project": "AgentToolkit",
+      "status": "needs_update",
+      "suggestion": "「當前階段」寫『agent-init 與 skill-sync 待開發』，但 done 記錄顯示 2026-04-12 已完成 T003a-T005a。checklist 3 項仍標 [todo]，需同步標為 [done]，當前階段改為『全功能完成，維護模式』。"
+    },
+    {
+      "project": "ApprovalBridge",
+      "status": "ok",
+      "su</pre>
 </div>
 
 <script>
