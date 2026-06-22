@@ -98,7 +98,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 81 天前</div>
+                <div class="card-date">更新: 82 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -408,43 +408,42 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-06-15</p>
+        <p><strong>上次審查：</strong>2026-06-22</p>
         <pre>{
   "goals_review": [
     {
       "project": "AgentChat",
       "status": "ok",
-      "suggestion": "Phase 1 完成且穩定，goals 與實際一致。"
+      "suggestion": "核心目的與實際工作一致。Phase 1 完成後處於維護狀態，與當前階段描述吻合。"
     },
     {
       "project": "AgentComm",
       "status": "ok",
-      "suggestion": "launchd 常駐穩定運作，無偏離。"
+      "suggestion": "穩定運作中，無偏離。"
     },
     {
       "project": "AgentCore",
       "status": "needs_update",
-      "suggestion": "「當前階段」應更新：Phase 1-4 + AvatarPlan 串接已完成，self-learning（user_model 短路徑 + MorningBrief 長路徑）尚未排入 checklist。建議補上 G5 自主學習的執行計畫。"
+      "suggestion": "goals.md 缺少「當前階段」區塊，是所有專案中唯一沒有此欄位的。應補上當前進度描述（Phase 1-4 + E2E + AvatarPlan 串接完成）。另外 G5 自主學習目標有 self-learning.md 規劃但零 session 推進，需確認是否為刻意暫緩。"
     },
     {
       "project": "AgentDispatcher",
       "status": "ok",
-      "suggestion": "launchd 常駐穩定，無偏離。"
+      "suggestion": "穩定運作中，無偏離。"
     },
     {
       "project": "AgentPulse",
       "status": "ok",
-      "suggestion": "架構 A 穩定運行，daily_reflection 已修復，無偏離。"
+      "suggestion": "當前階段描述準確。daily_reflection 已修復，架構 C 為明確的下一步。"
     },
     {
       "project": "AgentToolkit",
       "status": "needs_update",
-      "suggestion": "「當前階段」寫『agent-init 與 skill-sync 待開發』，但 done 記錄顯示 2026-04-12 已完成 T003a-T005a。checklist 3 項仍標 [todo]，需同步標為 [done]，當前階段改為『全功能完成，維護模式』。"
+      "suggestion": "當前階段寫「agent-init 與 skill-sync 待後續開發」，但 done 記錄顯示 T003a+T004a+T005a 已於 2026-04-12 完成。當前階段描述嚴重過時，應更新為反映已完成狀態。checklist 3 項也需從 todo 改為 done。"
     },
     {
       "project": "ApprovalBridge",
-      "status": "ok",
-      "su</pre>
+ </pre>
 </div>
 
 <script>
