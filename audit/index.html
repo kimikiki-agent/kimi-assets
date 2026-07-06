@@ -109,7 +109,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 95 天前</div>
+                <div class="card-date">更新: 96 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -409,28 +409,35 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-06-29</p>
+        <p><strong>上次審查：</strong>2026-07-06</p>
         <pre>{
   "goals_review": [
     {
-      "project": "AgentPulse",
-      "status": "drifted",
-      "suggestion": "核心目的是「自我監控系統」，成功標準是異常偵測覆蓋率 100%、告警 <30s。但 Session 14-15 的實際工作重心已轉向「每日學習→兒童動畫製作」和「多 workspace 輸出」，監控基礎設施僅維持運作但未朝成功標準推進。建議：(1) 將動畫學習/內容產出功能拆出為獨立模組或獨立專案，AgentPulse 回歸排程引擎+監控告警本職；(2) 在 checklist 中建立覆蓋率追蹤項目（列出哪些 agent 進程已監控、哪些未覆蓋）。"
-    },
-    {
       "project": "AgentCore",
       "status": "needs_update",
-      "suggestion": "CLAUDE.md 索引記錄 Phase 1-4 + E2E + AvatarPlan 串接已完成，但 goals.md 的「當前階段」欄位為空。另外，G2 Chat Handoff、G3 Dispatch、G4 Persona 抽換目前均無 checklist 項目追蹤。建議更新「當前階段」描述，並為 G2-G4 建立可追蹤的 checklist。"
+      "suggestion": "「當前階段」應更新為反映 G1-G3 已完成的事實，並明確指出 G4（Persona 抽換）和 G5（自主學習）為下一步。目前無 session 記錄超過 2 個月，需決定是否重新啟動。"
     },
     {
       "project": "AvatarPlan",
       "status": "needs_update",
-      "suggestion": "基礎 a1-a5 全部完成，「當前階段」描述的 Chat UI P1-P3 重構也完成。但成功標準中的「與 AgentCore 串接完整」和「角色與技能可抽換」兩項沒有任何 checklist 追蹤。建議：(1) 更新「當前階段」反映 a1-a5 + Chat UI 完成的現狀；(2) 為 AgentCore 串接和 persona/skill pack 建立下一階段 checklist。"
+      "suggestion": "「當前階段」描述 Chat UI 重構已是舊聞（4月完成），且成功標準中『角色與技能可抽換』完全沒有對應 checklist 項目。建議更新當前階段為『MVP 收尾 + Persona 系統設計啟動』，並將 persona/skill-pack 拆為具體 checklist。"
     },
     {
-      "project": "AvatarController",
+      "project": "Autoresearch",
+      "status": "ok",
+      "suggestion": "核心目的（Project Auditor 雙層監控）與實際運行一致。plans/ 中有 skill-production-monitoring.md 新方向，但屬擴展而非偏離，可視為 P2 待排。"
+    },
+    {
+      "project": "RiveGen",
+      "status": "ok",
+      "suggestion": "Phase 1B 完成、Phase 2/3 待推進，與 goals.md 描述一致。專案處於暫停狀態但未偏離方向。"
+    },
+    {
+      "project": "ContentMarketing",
       "status": "needs_update",
-      "suggest</pre>
+      "suggestion": "成功標準要求『互動率追蹤』和『Bio waitlist 量化』，但目前 pipeline 只做了自動發文+補貨。缺少 metrics dashboard 或追蹤機制。當前階段描述準確但 checklist 應補入量化驗證項目。"
+    },
+</pre>
 </div>
 
 <script>
