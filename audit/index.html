@@ -120,7 +120,7 @@
             </div>
             <div class="card-body">
                 <div class="card-stat">gaps: 0 | pending: 0 | broken: 0</div>
-                <div class="card-date">更新: 102 天前</div>
+                <div class="card-date">更新: 103 天前</div>
                 <div class="card-goal">作為 AgentPulse 告警與 AgentComm 人工指令之間的派工中樞，黃燈自動修復、紅燈等人工授權。</div>
             </div>
         </div>
@@ -424,33 +424,38 @@
 <h2>7. Opus 週評</h2>
 <div class="section">
 
-        <p><strong>上次審查：</strong>2026-07-06</p>
+        <p><strong>上次審查：</strong>2026-07-13</p>
         <pre>{
   "goals_review": [
     {
+      "project": "AgentChat",
+      "status": "ok",
+      "suggestion": "Phase 1 完成、成功標準已達成（intent 100%、延遲 6.2s），goals 當前階段描述準確。"
+    },
+    {
+      "project": "AgentComm",
+      "status": "ok",
+      "suggestion": "launchd 常駐穩定運行，與核心目的一致。"
+    },
+    {
       "project": "AgentCore",
       "status": "needs_update",
-      "suggestion": "「當前階段」應更新為反映 G1-G3 已完成的事實，並明確指出 G4（Persona 抽換）和 G5（自主學習）為下一步。目前無 session 記錄超過 2 個月，需決定是否重新啟動。"
+      "suggestion": "當前階段寫 'Phase 1-4 + E2E + AvatarPlan 前端串接完成'，但自 s17（2026-04-12）後無新 session。user_model 短路徑設計已完成但未排入 checklist，建議在當前階段補充 'user_model 實作待排入' 並在 checklist 新增對應項目。"
     },
     {
-      "project": "AvatarPlan",
-      "status": "needs_update",
-      "suggestion": "「當前階段」描述 Chat UI 重構已是舊聞（4月完成），且成功標準中『角色與技能可抽換』完全沒有對應 checklist 項目。建議更新當前階段為『MVP 收尾 + Persona 系統設計啟動』，並將 persona/skill-pack 拆為具體 checklist。"
-    },
-    {
-      "project": "Autoresearch",
+      "project": "AgentDispatcher",
       "status": "ok",
-      "suggestion": "核心目的（Project Auditor 雙層監控）與實際運行一致。plans/ 中有 skill-production-monitoring.md 新方向，但屬擴展而非偏離，可視為 P2 待排。"
+      "suggestion": "launchd 常駐穩定，與核心目的一致。"
     },
     {
-      "project": "RiveGen",
+      "project": "AgentPulse",
       "status": "ok",
-      "suggestion": "Phase 1B 完成、Phase 2/3 待推進，與 goals.md 描述一致。專案處於暫停狀態但未偏離方向。"
+      "suggestion": "每日學習迴圈穩定運行，與核心目的一致。Architecture C 方向已記載。"
     },
     {
-      "project": "ContentMarketing",
+      "project": "AgentToolkit",
       "status": "needs_update",
-      "suggestion": "成功標準要求『互動率追蹤』和『Bio waitlist 量化』，但目前 pipeline 只做了自動發文+補貨。缺少 metrics dashboard 或追蹤機制。當前階段描述準確但 checklist 應補入量化驗證項目。"
+      "suggestion": "當前階段寫 'agent-init 和 skill-sync 待未來開發'，但 done 記錄顯示 T003a-T005a 已於 2026-04-12 完成。需將 checklist 三項從 [todo] 更新為 [done]，並更新當前階段描述。"
     },
 </pre>
 </div>
